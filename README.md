@@ -29,8 +29,8 @@ go run cmd/setup.go
 ```
 
 ### In this project, there are functions like:
- 1. GET("/videos")            // gets all videos that are saved
- 2. POST("/videos")           // creates a video
- 3. GET("/videos/:id")        // gets video by id
- 4. PUT("/videos/:id")        // updates video by id
- 5. DELETE("/videos/:id")     // deletes video by id  
+ 1. `GET("/videos")            // gets all videos that are saved`
+ 2. `POST("/videos")           // creates a video`
+ 3. `GET("/videos/:id")        // gets video by id`
+ 4. `PUT("/videos/:id")        // updates video by id`
+ 5. `DELETE("/videos/:id")     // deletes video by id`
