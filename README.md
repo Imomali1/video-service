@@ -34,3 +34,31 @@ go run cmd/setup.go
  3. `GET("/videos/:id")        // gets video by id`
  4. `PUT("/videos/:id")        // updates video by id`
  5. `DELETE("/videos/:id")     // deletes video by id`
+ 
+ ### Directory structure
+ 
+ `
+├───.idea  
+├───cmd
+|   ├───main.go
+|   └───setup.go
+├───configs
+|   └───configs.yaml
+├───entity
+|   └───video.go
+└───pkg
+    ├───controller
+    |   └───video-controller.go
+    ├───db
+    │   ├───SQL
+    |   |    └───table.sql
+    |   ├───db-connection.go
+    |   └───db-functions.go
+    ├───service
+    |   └───video-service.go
+    └───utils
+        ├───convert
+        |   └───strtoint.go
+        └───reader
+            └───readfile.go
+ `
