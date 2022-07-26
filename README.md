@@ -37,7 +37,7 @@ go run cmd/setup.go
  
  ### Directory structure
  
- `
+ ```
 ├───.idea  
 ├───cmd
 |   ├───main.go
@@ -61,4 +61,4 @@ go run cmd/setup.go
         |   └───strtoint.go
         └───reader
             └───readfile.go
- `
+ ```
