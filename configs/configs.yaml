@@ -1,0 +1,6 @@
+host:       "localhost"
+port:       5432
+username:   "postgres"
+password:   "1m0m@l1"
+dbname:     "Imomali"
+sslmode:    "disable"
